@@ -5,12 +5,14 @@
 html {
     margin: 0;
     padding: 0;
+    right: 0;
 }
 
 body{
     font-family: "Quicksand";
     background-color: white;
     width: 100%;
+    right: 0;
 }
 
 .container-navbar{
@@ -170,9 +172,153 @@ body{
     background-color: #3C6CA8;
 }
 
+/* KATEGORI */
+.kategori{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.kategori-gambar{
+    margin-right: 20px;
+    margin-left: 20px;
+    /* vertical-align: baseline; */
+}
+
+.kategori-nama{
+    display: flex;
+    justify-content: center;
+    /* border: #3C6CA8; */
+    list-style-type: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: #3C6CA8;
+}
+
+.li-kategori{
+    text-align: center;
+    margin-top: -30px;
+    margin-right: 21px ;
+    margin-left: 19px;
+    background-color: #FDC5CC;
+    border-bottom: 10px;
+    /* border-radius: 15px; */
+    width: 399px;
+    padding: 10px;
+}
+/* KATEGORI END */
+
+
+/* FNB PRODUCT */
+.fnb{
+    margin-top: 50px;
+    margin-left: 280px;
+    color: #FDC5CC;
+    text-align: center;
+    background-color: #3C6CA8;
+    /* border-bottom: 10px; */
+    border-radius: 15px;
+    width: 700px;
+    padding: 10px;
+}
+
+.fnb-gambar{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.fnb-milkbun{
+    height: 280px;
+}
+
+.fnb-matcha{
+    height: 280px;
+}
+
+.fnb-mango{
+    height: 280px;
+}
+
+.fnb-strawberry{
+    height: 280px;
+}
+
+.fnb-cincau{
+    height: 280px;
+}
+
+.fnb-gambar p{
+    color: #3C6CA8;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #FDC5CC;
+    margin-top: -40px;
+    /* border-radius: 15px; */
+    width: 213px;
+    padding: 8px;
+}
+/* FNB PRODUCT END*/
 
 
 
+/* CLOTHES PRODUCT */
+.clothes{
+    margin-top: 50px;
+    margin-left: 280px;
+    color: #FDC5CC;
+    text-align: center;
+    background-color: #3C6CA8;
+    /* border-bottom: 10px; */
+    border-radius: 15px;
+    width: 700px;
+    padding: 10px;
+}
 
+.clothes-gambar{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 100px;
+}
 
+.clothes-coconut{
+    height: 280px;
+}
 
+.clothes-piano{
+    height: 280px;
+}
+
+.clothes-onigiri{
+    height: 280px;
+}
+
+.clothes-rabbit{
+    height: 280px;
+}
+
+.clothes-gambar p{
+    color: #3C6CA8;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #FDC5CC;
+    margin-top: -30px;
+    /* border-radius: 15px; */
+    width: 189px;
+    padding: 20px;
+}
+/* CLOTHES PRODUCT END*/
