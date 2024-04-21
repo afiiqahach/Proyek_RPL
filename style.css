@@ -575,3 +575,238 @@ body{
 /* mango END */
 
 
+/* coconut */
+.coconut{
+    margin-top: 50px;
+    margin-left: 280px;
+    color: #FDC5CC;
+    text-align: center;
+    background-color: #3C6CA8;
+    /* border-bottom: 10px; */
+    border-radius: 15px;
+    width: 700px;
+    padding: 10px;
+}
+
+.coconut-isi{
+    margin-top: 50px;
+    margin-left: 150px;
+    /* margin-right: 150px; */
+    /* margin-bottom: 100px; */
+    display: flex;
+    /* justify-content: center; */
+    gap: 100px;
+}
+
+.coconut-isi img{
+    height: 350px;
+}
+
+.coconut-isi p{
+    text-align: justify;
+    color: #3C6CA8;
+    font-size: larger;
+    font-weight: 700px;
+}
+
+.coconut-kecil{
+    list-style-type: decimal;
+    color: #3C6CA8;
+    font-size: larger;
+    font-weight: 700px;
+    margin-left: 525px;
+    margin-top: -300px;
+    /* margin-bottom: 150px; */
+}
+
+.coconut-kecil p{
+    font-weight: bold;
+}
+
+.coconut-image{
+    margin-top: 100px;
+    display: flex;
+    height: 200px;
+    gap: 20px;
+    justify-content: center;
+}
+/* coconut END */
+
+
+/* piano */
+.piano{
+    margin-top: 50px;
+    margin-left: 280px;
+    color: #FDC5CC;
+    text-align: center;
+    background-color: #3C6CA8;
+    /* border-bottom: 10px; */
+    border-radius: 15px;
+    width: 700px;
+    padding: 10px;
+}
+
+.piano-isi{
+    margin-top: 50px;
+    margin-left: 150px;
+    /* margin-right: 150px; */
+    /* margin-bottom: 100px; */
+    display: flex;
+    /* justify-content: center; */
+    gap: 100px;
+}
+
+.piano-isi img{
+    height: 350px;
+}
+
+.piano-isi p{
+    text-align: justify;
+    color: #3C6CA8;
+    font-size: larger;
+    font-weight: 700px;
+}
+
+.piano-kecil{
+    list-style-type: decimal;
+    color: #3C6CA8;
+    font-size: larger;
+    font-weight: 700px;
+    margin-left: 525px;
+    margin-top: -300px;
+    /* margin-bottom: 150px; */
+}
+
+.piano-kecil p{
+    font-weight: bold;
+}
+
+.piano-image{
+    margin-top: 100px;
+    display: flex;
+    height: 200px;
+    gap: 20px;
+    justify-content: center;
+}
+/* piano end */
+
+
+/* onigiri */
+.onigiri{
+    margin-top: 50px;
+    margin-left: 280px;
+    color: #FDC5CC;
+    text-align: center;
+    background-color: #3C6CA8;
+    /* border-bottom: 10px; */
+    border-radius: 15px;
+    width: 700px;
+    padding: 10px;
+}
+
+.onigiri-isi{
+    margin-top: 50px;
+    margin-left: 150px;
+    /* margin-right: 150px; */
+    /* margin-bottom: 100px; */
+    display: flex;
+    /* justify-content: center; */
+    gap: 100px;
+}
+
+.onigiri-isi img{
+    height: 350px;
+}
+
+.onigiri-isi p{
+    text-align: justify;
+    color: #3C6CA8;
+    font-size: larger;
+    font-weight: 700px;
+}
+
+.onigiri-kecil{
+    list-style-type: decimal;
+    color: #3C6CA8;
+    font-size: larger;
+    font-weight: 700px;
+    margin-left: 525px;
+    margin-top: -300px;
+    /* margin-bottom: 150px; */
+}
+
+.onigiri-kecil p{
+    font-weight: bold;
+}
+
+.onigiri-image{
+    margin-top: 100px;
+    display: flex;
+    height: 200px;
+    gap: 20px;
+    justify-content: center;
+}
+/* onigiri end */
+
+
+/* rabbit */
+.rabbit{
+    margin-top: 50px;
+    margin-left: 280px;
+    color: #FDC5CC;
+    text-align: center;
+    background-color: #3C6CA8;
+    /* border-bottom: 10px; */
+    border-radius: 15px;
+    width: 700px;
+    padding: 10px;
+}
+
+.rabbit-isi{
+    margin-top: 50px;
+    margin-left: 150px;
+    /* margin-right: 150px; */
+    /* margin-bottom: 100px; */
+    display: flex;
+    /* justify-content: center; */
+    gap: 100px;
+}
+
+.rabbit-kecil{
+    list-style-type: decimal;
+    color: #3C6CA8;
+    font-size: larger;
+    font-weight: 700px;
+    margin-left: 525px;
+    margin-top: -300px;
+    /* margin-bottom: 150px; */
+}
+
+.rabbit-kecil p{
+    font-weight: bold;
+}
+
+.rabbit-image{
+    margin-top: 100px;
+    display: flex;
+    height: 200px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.rabbit-isi img{
+    height: 350px;
+}
+
+.rabbit-isi p{
+    text-align: justify;
+    color: #3C6CA8;
+    font-size: larger;
+    font-weight: 700px;
+}
+/* rabbit end */
+
+
+
+
+
