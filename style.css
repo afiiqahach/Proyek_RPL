@@ -322,3 +322,256 @@ body{
     padding: 20px;
 }
 /* CLOTHES PRODUCT END*/
+
+
+/* Details MILKBUN */
+.milkbun{
+    margin-top: 50px;
+    margin-left: 280px;
+    color: #FDC5CC;
+    text-align: center;
+    background-color: #3C6CA8;
+    /* border-bottom: 10px; */
+    border-radius: 15px;
+    width: 700px;
+    padding: 10px;
+}
+
+
+.milkbun-isi{
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    /* margin-bottom: 100px; */
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.milkbun-isi p{
+    text-align: justify;
+    color: #3C6CA8;
+    font-size: larger;
+    font-weight: 700px;
+}
+
+.milkbun-isi img{
+    height: 350px;
+}
+
+.milkbun-bahan{
+    list-style-type: decimal;
+    margin-left: 560px;
+    margin-top: -160px;
+    margin-bottom: 150px;
+    color: #3C6CA8;
+    font-size: larger;
+    font-weight: 700px;
+}
+/* Details MILKBUN END*/
+
+
+/* Details MATCHA */
+.matcha{
+    margin-top: 50px;
+    margin-left: 280px;
+    color: #FDC5CC;
+    text-align: center;
+    background-color: #3C6CA8;
+    /* border-bottom: 10px; */
+    border-radius: 15px;
+    width: 700px;
+    padding: 10px;
+}
+
+.matcha-isi{
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    /* margin-bottom: 100px; */
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.matcha-isi img{
+    height: 350px;
+}
+
+.matcha-isi p{
+    text-align: justify;
+    color: #3C6CA8;
+    font-size: larger;
+    font-weight: 700px;
+}
+
+.matcha-bahan{
+    list-style-type: decimal;
+    margin-left: 560px;
+    margin-top: -160px;
+    margin-bottom: 150px;
+    color: #3C6CA8;
+    font-size: larger;
+    font-weight: 700px;
+}
+/* Details MATCHA END*/
+
+
+/* Details cincau */
+.cincau{
+    margin-top: 50px;
+    margin-left: 280px;
+    color: #FDC5CC;
+    text-align: center;
+    background-color: #3C6CA8;
+    /* border-bottom: 10px; */
+    border-radius: 15px;
+    width: 700px;
+    padding: 10px;
+}
+
+.cincau-isi{
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    /* margin-bottom: 100px; */
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.cincau-isi img{
+    height: 350px;
+}
+
+.cincau-isi p{
+    text-align: justify;
+    color: #3C6CA8;
+    font-size: larger;
+    font-weight: 700px;
+}
+
+.cincau-bahan{
+    list-style-type: decimal;
+    margin-left: 540px;
+    margin-top: -220px;
+    margin-bottom: 250px;
+    color: #3C6CA8;
+    font-size: larger;
+    font-weight: 700px;
+}
+/* Cincau END */
+
+
+/* Details strawberry */
+.strawberry{
+    margin-top: 50px;
+    margin-left: 280px;
+    color: #FDC5CC;
+    text-align: center;
+    background-color: #3C6CA8;
+    /* border-bottom: 10px; */
+    border-radius: 15px;
+    width: 700px;
+    padding: 10px;
+}
+
+.strawberry-isi{
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    /* margin-bottom: 100px; */
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.strawberry-isi img{
+    height: 350px;
+}
+
+.strawberry-isi p{
+    text-align: justify;
+    color: #3C6CA8;
+    font-size: larger;
+    font-weight: 700px;
+}
+
+.strawberry-bahan{
+    list-style-type: decimal;
+    margin-left: 560px;
+    margin-top: -220px;
+    /* margin-bottom: 250px; */
+    color: #3C6CA8;
+    font-size: larger;
+    font-weight: 700px;
+}
+
+.strawberry-ukuran{
+    list-style-type: decimal;
+    margin-left: 560px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    color: #3C6CA8;
+    font-size: larger;
+    font-weight: 700px;
+}
+/* strawberry END */
+
+
+/* Details mango */
+.mango{
+    margin-top: 50px;
+    margin-left: 280px;
+    color: #FDC5CC;
+    text-align: center;
+    background-color: #3C6CA8;
+    /* border-bottom: 10px; */
+    border-radius: 15px;
+    width: 700px;
+    padding: 10px;
+}
+
+.mango-isi{
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    /* margin-bottom: 100px; */
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.mango-isi img{
+    height: 350px;
+}
+
+.mango-isi p{
+    text-align: justify;
+    color: #3C6CA8;
+    font-size: larger;
+    font-weight: 700px;
+}
+
+.mango-bahan{
+    list-style-type: decimal;
+    margin-left: 560px;
+    margin-top: -220px;
+    /* margin-bottom: 250px; */
+    color: #3C6CA8;
+    font-size: larger;
+    font-weight: 700px;
+}
+
+.mango-ukuran{
+    list-style-type: decimal;
+    margin-left: 560px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    color: #3C6CA8;
+    font-size: larger;
+    font-weight: 700px;
+}
+/* mango END */
+
+
