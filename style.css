@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 
-*, 
-html {
+*{
     margin: 0;
     padding: 0;
     right: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -15,48 +15,208 @@ body{
     right: 0;
 }
 
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* height: 80px; */
+    width: 100%;
+    padding: 8px 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
 .container-navbar{
     background-color: white;
     width: 100%;
     height: 50px;
 }
 
-.ul-navbar{
-    display: flex;
-    height: 50px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.nav-navbar a{
+    position: relative;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 60px;
 }
 
-.li-navbar{
-    /* border: 1px solid rebeccapurple; */
-    list-style-type: none;
-    margin: 5px;
-    padding: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    text-align: center;
-    color: black
+.nav-navbar a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #3C6CA8;
+    border-radius: 8px;
+    transform: scaleX(0);
+    transition: transform .5s;
 }
 
-.li-logo{
-    list-style-type: none;
-    margin-left: 0%;
-    /* margin-right: 500px; */
+.nav-navbar a:hover:after{
+    transform: scaleX(1);
 }
 
+.nav-navbar .btnlogin-popup{
+    width: 100px;
+    height: 30px;
+    background: transparent;
+    border: 2px solid #3C6CA8;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    color: black;
+    margin-left: 60px;
+    transition: .5s;
+}
+
+.nav-navbar .btnlogin-popup:hover{
+    background: #3C6CA8;
+}
 
 /* Logo GANF */
 .logo-ganf{
     display: flex;
     justify-content: center;
+    align-items: center;
+    min-height: 50px;
     background-color: #3C6CA8;
+    background-size: cover;
+    background-position: center;
+    margin-top: 60px;
 }
 
 .logo{
     padding: 30px;
 }
+/* Logo GANF END*/
+
+
+/* LOGIN PAGE*/
+.wrapper{
+    margin: 100px 0 100px 460px;
+    position: relative;
+    width: 350px;
+    height: 440px;
+    background-color: #3C6CA8;
+    /* border: 2px solid #FDC5CC; */
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.wrapper .form-box{
+    width: 100%;
+    padding: 40px;
+}
+
+.wrapper .icon-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 35px;
+    background: #FDC5CC;
+    font-size: 30px;
+    color: #3C6CA8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-box img{
+    margin-left: 70px;
+}
+
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid black;
+    margin: 30px 0;
+}
+
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 15px;
+    color: #FDC5CC;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top: -5px;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    color: #FDC5CC;
+    font-weight: 600;
+    padding: 0 35px 0 10px;
+}
+
+.input-box .icon{
+    position: absolute;
+    right: 8px;
+    font-size: 15px;
+    color: #FDC5CC;
+    line-height: 57px;
+}
+.remember-forgot{
+    font-size: 12px;
+    color: #FDC5CC;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.remember-forgot input{
+    accent-color: #FDC5CC;
+    margin-right: 3px;
+}
+
+.remember-forgot a{
+    color: #FDC5CC;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.btn{
+    width: 100%;
+    height: 45px;
+    background: #FDC5CC;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    color: #3C6CA8;
+    font-weight: 600;
+}
+
+/* LOGIN PAGE END */
+
 
 /* About us */
 .about-ganf{
