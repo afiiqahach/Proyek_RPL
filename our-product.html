@@ -12,10 +12,10 @@
         <h2 class="nav-logo"><img src="/images/logo GANF1.png" alt="logo" height="40px"></h2>
         <nav class="nav-navbar">
             <!-- <img class="li-logo" src="/images/logo GANF1 small.png" height="50px"/> -->
-            <a href="#">About Us</a>
-            <a href="#">Our Product</a>
+            <a href="/aboutus.html">About Us</a>
+            <a href="/our-product.html">Our Product</a>
             <a href="#">Testimoni</a>
-            <a href="#">Contact Us</a>
+            <a href="#footer">Contact Us</a>
             <button class="btnlogin-popup">Login</button>
         </nav>
     </header>
@@ -35,19 +35,57 @@
         <img class="kategori-gambar" src="/images/clothes.png" alt="clothes" height="250px">
     </div>
     <div class="kategori-nama">
-        <li class="li-kategori">Food n Baverage</li>
-        <li class="li-kategori">Clothes</li>
+        <a href="/fnb.html"><li class="li-kategori">Food n Baverage</li></a>
+        <a href="/clothes.html"><li class="li-kategori">Clothes</li></a>
     </div>
     <!-- Kategori END -->
 
 
     <!-- FOOTER -->
     <footer class="footer">
-        <div class="footer-left">
-            <img src="/images/logotagline.png" alt="footer-logotagline" height="100px">
+        <div class="container">
+            <div class="row">
+                <div class="logo-footer">
+                    <img src="/images/logotag.png" alt="" height="130px">
+                </div>
+                <div class="footer-col">
+                    <h4>Our Product</h4>
+                    <ul class="ul-footer">
+                        <li><a href="/fnb.html">Food n Baverage</a></li>
+                        <li><a href="/clothes.html">Clothes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>About Us</h4>
+                    <ul class="ul-footer">
+                        <li><a href="/aboutus.html">About GANF</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Testimoni</h4>
+                    <ul class="ul-footer">
+                        <li><a href="/testimoni.html"></a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Information</h4>
+                    <ul class="ul-footer">
+                        <li><a href="https://maps.app.goo.gl/4oLYenmWSFwfj1aRA">Jl. Laiya 1 No 5 <br>Makassar, Sulawesi <br>Selatan</p></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-line">
+                <img src="/images/line2.png" alt="">
+            </div>
+            <div class="social">
+                <a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                <a href="https://www.instagram.com/ganf_official?igsh=bzVlcDducjVmeDF1&utm_source=qr"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://www.tiktok.com/@ganf_official?_t=8llsRyrmcQU&_r=1"><ion-icon name="logo-tiktok"></ion-icon></a>
+            </div>
         </div>
     </footer>
     <!-- FOOTER END -->
+
 
     <script src="script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
